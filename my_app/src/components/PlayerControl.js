@@ -10,6 +10,8 @@ import {
 function PlayerControl() {
   return <div className="c-player--controls">
       <button className="skip-btn"> <FontAwesomeIcon icon={faBackward}/> </button>
+      <button className="skip-btn"> <FontAwesomeIcon icon={faPlay}/> </button>
+      <button className="skip-btn"> <FontAwesomeIcon icon={faForward}/> </button>
       </div>;
 }
 
